@@ -213,7 +213,6 @@ THE SOFTWARE.
       <plugin>
         <groupId>org.kohsuke.stapler</groupId>
         <artifactId>maven-stapler-plugin</artifactId>
-        <version>3.6</version>
         <!-- version specified in grandparent pom -->
         <extensions>true</extensions>
       </plugin>
@@ -239,7 +238,6 @@ THE SOFTWARE.
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.6</version>
         <!-- version specified in grandparent pom -->
         <configuration>
           <!-- SUREFIRE-1588 workaround; too late for systemProperties: -->
@@ -258,7 +256,7 @@ THE SOFTWARE.
       <plugin>
         <groupId>org.codehaus.gmavenplus</groupId>
         <artifactId>gmavenplus-plugin</artifactId>
-        <version>1.8.1</version>
+        <version>3.6.1</version>
         <executions>
           <execution>
             <id>preset-packager</id>
